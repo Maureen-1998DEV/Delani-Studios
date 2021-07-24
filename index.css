@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.landing-page{
+    background-image: url("./assets/backgrounds/h_img.jpg") !important;
+    background: cover !important;
+    background-repeat: no-repeat!important;
+    height: 850px;
+    padding: 300px;
+}
+.logo,.textone,.graph,.mouse-click{
+text-align: center;
+padding: 30px; 
+color: aliceblue;
+font-size: 30px;
+}
+.container-md{
+    text-align: center;
+    font-size: 20px;
+    padding: 100px;
+}
+.service-title{
+    background-image: url("./assets/backgrounds/s_image.jpg");
+    background-repeat: no-repeat;
+    background: cover;
+    width: 2000px;
+    height: 500px;
+    padding: 150px;
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+}
+.product,.design-one,.development-one{
+display: flexbox;
+
+    justify-content: space-evenly;
+}
+
+
+    
+}
+.what{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+    
