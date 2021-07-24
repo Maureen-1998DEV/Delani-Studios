@@ -31,15 +31,11 @@ font-size: 30px;
     font-size: 25px;
     color: aliceblue;
 }
-.product,.design-one,.development-one{
-display: flexbox;
-
-    justify-content: space-evenly;
+.container.row.col-2{
+    padding: 30px !important;
 }
 
 
-    
-}
 .what{
     text-align: center;
     padding: 20px 20px 20px 20px;
