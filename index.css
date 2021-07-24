@@ -67,49 +67,50 @@ font-size: 30px;
 .container-sm{
     padding-left: 300px;
 }
-@media screen {
-    @media screen and (max-width: 500px){
+     @media screen and (max-width: 500px){ */
 
-        /* Landing Page */
+        /* Landing Page*/
     
-        .logoTag {
+        .logo {
             display: flex;
             flex-wrap: wrap;
         }
-        .delani {
+        .landingpage h1{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .service-title{
             display: flex;
             flex-wrap: wrap;
         }
         
         /* Portfolio Images */
-        .portfolioRowOne, .porfoloRowTwo {
+        .container {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
         }
-        .portfolioRowOne div {
+        .row div {
             width: 100%;
             margin-bottom: 0px;
             
         }
-        .porfoloRowTwo div {
+        .row div {
             width: 100%;
         }
-        .portfolioContentWrapper{
+        .container h3{
             margin: 0px 8px ;
             font-size: small;
             padding: 0px;
         }
-        .portfolioRowOne div img {
+        .container div img {
             width: 100%;
         }
-        .porfoloRowTwo div img {
-            width: 100%;
-        }
+
         
     
        /* What We Do */
-        .whatWeDoServiceIcons {
+        .container-lg {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -120,12 +121,12 @@ font-size: 30px;
             width: 100%;
             margin-bottom: 20px;
         }
-        .whatWeDo {
+        .what {
             margin: 8px;
         }
         
         /* SOCIAL ICONS */
-        .socialMedia {
+        .container-sm{
             flex-wrap: wrap;
             margin: 8px;
             align-items: center;
@@ -155,7 +156,7 @@ font-size: 30px;
             
             width: 100%;
         }
-        .socialIcons {
+        .socialicons {
             
             margin: auto;
             margin: 8px;
@@ -171,4 +172,4 @@ font-size: 30px;
             margin-bottom: 40px;    
 }
 
-    
+     */
