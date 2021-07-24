@@ -33,16 +33,36 @@ font-size: 30px;
     color: aliceblue;
 }
 .container-lg{
-    display: flex;
     justify-content: space-around;
     text-align: center;
     font-size: 15px;
 }
-
-
+.productManagementText,.developmentText,.designText{
+    display: none;
+    font-size: small;
+}
+ .container.row .col-3{
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background: whitesmoke;
+    top: 0;
+    left: 0;
+}
 .what{
     text-align: center;
     padding: 20px 20px 20px 20px;
+}
+.textthree{
+    text-align: center;
+}
+.contactUs{
+    background-image: url("./assets/backgrounds/c_image.jpg") !important;
+    height: 650px;
 }
 
     
