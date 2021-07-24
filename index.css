@@ -64,5 +64,111 @@ font-size: 30px;
     background-image: url("./assets/backgrounds/c_image.jpg") !important;
     height: 650px;
 }
+.container-sm{
+    padding-left: 300px;
+}
+@media screen {
+    @media screen and (max-width: 500px){
+
+        /* Landing Page */
+    
+        .logoTag {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .delani {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        /* Portfolio Images */
+        .portfolioRowOne, .porfoloRowTwo {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .portfolioRowOne div {
+            width: 100%;
+            margin-bottom: 0px;
+            
+        }
+        .porfoloRowTwo div {
+            width: 100%;
+        }
+        .portfolioContentWrapper{
+            margin: 0px 8px ;
+            font-size: small;
+            padding: 0px;
+        }
+        .portfolioRowOne div img {
+            width: 100%;
+        }
+        .porfoloRowTwo div img {
+            width: 100%;
+        }
+        
+    
+       /* What We Do */
+        .whatWeDoServiceIcons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    
+        .whatWeDoServiceIcons div {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .whatWeDo {
+            margin: 8px;
+        }
+        
+        /* SOCIAL ICONS */
+        .socialMedia {
+            flex-wrap: wrap;
+            margin: 8px;
+            align-items: center;
+            justify-content: space-around;
+        }
+    
+            /* CONTACT US */
+        .contactUs {
+            margin-top: 40px;
+        }
+    
+        form div input {
+            background-color: transparent;
+            border: 1px solid white;
+            padding: 5px 10px;
+            width: 80%;
+            margin-bottom: 10px;
+        }
+    
+        form div input[type="email"] {
+            margin-left: 0px;
+        }
+    
+        /* SOCIAL MEDIA */
+    
+        .socialMedia {
+            
+            width: 100%;
+        }
+        .socialIcons {
+            
+            margin: auto;
+            margin: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    
+        footer {
+            color: black;
+            text-align: center;
+            margin-bottom: 40px;    
+}
 
     
