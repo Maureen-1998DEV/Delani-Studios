@@ -1,4 +1,4 @@
-*{
+body{
     padding: 0;
     margin: 0;
     overflow-anchor: 300px;
@@ -41,26 +41,48 @@ font-size: 30px;
     display: none;
     font-size: small;
 }
-.container h1{
-    padding-left: 500px;
-}
- .container.row .col-3{
+.gallery {
+    width:300px;
+    height:300px;
     position: relative;
-    overflow: hidden;
-}
-.overlay{
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 100%;
-    top: 50%;
-    opacity: 1;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
- transform: translate(-50%, -50%);
- 
-}
+       padding: 0;
+       margin: 0;
+       text-align: center;
+   }
+
+   .portFolioImages{
+cursor:pointer;
+       position: relative;
+       display: block;
+   }
+
+    .overlay{
+       position: absolute;
+       top: 0; right: 0;
+       bottom: 0; left: 0;
+       width: 300px;
+       height: 300px; 
+       text-align: center;
+       background-color: rgba(0,0,0,0.8);
+       opacity: 0;
+       -webkit-transition: opacity 0.6s;
+       -moz-transition: opacity 0.6s;
+       transition: opacity 0.6s;
+      vertical-align:middle;
+      line-height:200px;
+   }
+
+   .overlay:hover{
+       opacity: 1;      
+   }
+
+   .overlay h3{
+       color: white;
+       display: inline-table;
+      vertical-align:middle;
+      line-height:100%;            
+   }
+
 .what{
     text-align: center;
     padding: 20px 20px 20px 20px;
@@ -71,6 +93,8 @@ font-size: 30px;
 .contactUs{
     background-image: url("./assets/backgrounds/c_image.jpg") !important;
     height: 650px;
+    margin-left: 0 !important;
+    margin-left: 0 !important;
 }
 .container-sm{
     padding-left: 300px;
