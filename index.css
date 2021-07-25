@@ -41,17 +41,25 @@ font-size: 30px;
     display: none;
     font-size: small;
 }
+.container h1{
+    padding-left: 500px;
+}
  .container.row .col-3{
     position: relative;
     overflow: hidden;
 }
 .overlay{
-    position: relative;
-    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100%;
-    background: whitesmoke;
-    top: 0;
-    left: 0;
+    top: 50%;
+    opacity: 1;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ 
 }
 .what{
     text-align: center;
@@ -67,6 +75,12 @@ font-size: 30px;
 .container-sm{
     padding-left: 300px;
 }
+.form-control,
+.form-control:focus,
+.form-control:active{
+    background-color: transparent;
+}
+
       /* @media screen and (max-width: 500px){ 
 
         /* Landing Page*/
@@ -147,8 +161,8 @@ font-size: 30px;
         } */
     
         /* form div input[type="email"] {
-            margin-left: 0px; */ */
-        }
+            margin-left: 0px; */ 
+        
     
         /* SOCIAL MEDIA */
     
