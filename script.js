@@ -30,14 +30,14 @@ $(document).ready(function(){
         var personEmail = $("input#email").val();
         var textArea = $("input#textarea").val();
         if( namePerson.length<3){
-            alert("put your two names");
+            alert("put your two names👊");
         }else if (personEmail==="") {
             alert("input email");
          } else if (textArea==="") {
-            alert("type your text");
+            alert("type your text😞");
         }
         else{
-            alert(`${namePerson} We have recieved your message`)
+            alert(`${namePerson} We have recieved your message🎉`)
         };
 
         
