@@ -156,8 +156,7 @@ font-size: 30px;
             
             width: 100%;
         }
-        .socialicons {
-            
+        .socialicons.container-sm{
             margin: auto;
             margin: 8px;
             display: flex;
