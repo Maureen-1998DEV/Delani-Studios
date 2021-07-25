@@ -1,20 +1,28 @@
 $(document).ready(function(){
-    $(".design").click (function(){
-       $(".designText").toggle();   
-  });     
-  $(".designText").click (function(){
-       $(".design").toggle();
+    $("#design").click(function (e) {
+        $("#design").toggle();
+        $("#designText").show();
     });
-    $(".development").click(function(){
-        $(".developmentText").toggle();
+    $("#designText").click(function (e) {
+        $("#design").toggle();
+        $("#designText").toggle();
     });
-    $(".developmentText").click(function(){
-        $(".development").toggle();
+    $("#development").click(function (e) {
+        $("#development").toggle();
+        $("#developmentText").show();
+    
     });
-    $(".productManagement").click(function(){
-        $(".productManagementText").toggle();
+    $("#developmentText").click(function (e) {
+        $("#development").toggle();
+        $("#developmentText").toggle();
     });
-    $(".productManagement").click(function(){
-      $(".productManagement").toggle();
+    $("#productManagement").click(function (e) {
+        $("#productManagement").toggle();
+        $("#productManagementText").show();
+    
+    });
+    $("#productManagementText").click(function (e) {
+        $("#productManagement").toggle();
+        $("#productManagementText").toggle();
     });
 });
