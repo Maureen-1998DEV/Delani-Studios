@@ -4,16 +4,16 @@ body{
     overflow-anchor: 300px;
 
 }
-body h1,h2,h3,h4,h5,p{
-    font-family: 'Raleway', sans-serif;,
+body h1,h2,h3,h4,h5{
+    font-family: 'Raleway', sans-serif;
 }
 
 .landing-page{
     background-image: url("./assets/backgrounds/h_img.jpg") !important;
     background: cover !important;
     background-repeat: no-repeat!important;
-    height: 850px;
-    padding: 300px;
+    height: 100%;
+    padding: 100%;
 }
 .logo,.textone,.graph,.mouse-click{
 text-align: center;
@@ -98,8 +98,8 @@ cursor:pointer;
 .contactUs{
     background-image: url("./assets/backgrounds/c_image.jpg") !important;
     height: 650px;
-    margin-left: 0 !important;
-    margin-left: 0 !important;
+    height: 1000px;
+    width: fit-content !important;
 }
 .container-sm{
     padding-left: 300px;
@@ -110,105 +110,30 @@ cursor:pointer;
     background-color: transparent;
 }
 
-      /* @media screen and (max-width: 500px){ 
+       @media screen and (max-width: 500px){ 
 
         /* Landing Page*/
     
-        /* .logo {
+        .logo {
             display: flex;
             flex-wrap: wrap;
         }
-        .landingpage h1{
+        .landingpage h1,p{
             display: flex;
-            flex-wrap: wrap;
+            font-size: smaller;
         }
         .service-title{
             display: flex;
             flex-wrap: wrap;
         }
         
-        /* Portfolio Images */
-        /* .container {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        .row div {
-            width: 100%;
-            margin-bottom: 0px;
-            
-        }
-        .row div {
-            width: 100%;
-        }
-        .container h3{
-            margin: 0px 8px ;
-            font-size: small;
-            padding: 0px;
-        }
-        .container div img {
-            width: 100%;
-        }
-
-        
-    
-       /* What We Do */
-        /* .container-lg {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        }
-    
-        .whatWeDoServiceIcons div {
-            width: 100%;
-            margin-bottom: 20px;
-        }
         .what {
             margin: 8px;
-        }  */
-        
-        /* SOCIAL ICONS */
-        /* .container-sm{
-            flex-wrap: wrap;
-            margin: 8px;
-            align-items: center;
-            justify-content: space-around;
-        }
-    
-            /* CONTACT US */
-        /* .contactUs {
-            margin-top: 40px;
-        }
-    
-        form div input {
-            background-color: transparent;
-            border: 1px solid white;
-            padding: 5px 10px;
-            width: 80%;
-            margin-bottom: 10px;
-        } */
-    
-        /* form div input[type="email"] {
-            margin-left: 0px; */ 
-        
-    
-        /* SOCIAL MEDIA */
-    
-        /* .socialMedia {
-            
-            width: 100%;
-        }
-        .socialicons.container-sm{
-            margin: auto;
-            margin: 8px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
         }
     
         footer {
             color: black;
             text-align: center;
-            margin-bottom: 40px;     */
+            margin-bottom: 40px;    
+        }
+    }
