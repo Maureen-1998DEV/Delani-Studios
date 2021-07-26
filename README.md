@@ -24,8 +24,6 @@
 * Twitter : Maureen Akinyi 73652.
 * +254743515249
 # Screenshots:
-<img src="./Assetes/screen.png" alt="screenshot" />
-<img src="./Assetes/screen2.png" alt="screenshot">
 
 # live link
 Live link to view the project <a href="https://maureen-1998dev.github.io/Delani-Studios/">DELANI STUDIOS</a>
