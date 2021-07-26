@@ -25,7 +25,94 @@ $(document).ready(function(){
         $("#productManagement").toggle();
         $("#productManagementText").toggle();
     });
+    
+    $(".divOne").hover(function () {
+        $(".portFolioImagesOne").animate({ opacity: 1 }, 100);
+        $(".overlayOne").addClass("overlay-hover-effect");
+    }
+        , function () {
+            $(".portFolioImagesOne").animate({ opacity: 0 }, 100);
+            $(".overlayOne").removeClass("overlay-hover-effect");
+        }
+    );
+
+    $(".divTwo").hover(function () {
+        
+        $(".portfolioImages").animate({ opacity: 1 }, 50);
+        $(".overlay").addClass("overlay-hover-effect");
+    }
+        , function () {
+
+            $(".portFolioImages").animate({ opacity: 0 }, 50);
+            $(".overlay").removeClass("overlay-hover-effect");
+        }
+    );
+
+    $(".divThree").hover(function () {
+        
+        $(".portFolioImages").animate({ opacity: 1 }, 50);
+        $(".portFolioImages").addClass("overlay-hover-effect");
+    }
+        , function () {
+            // out
+            $(".portFolioImages").animate({ opacity: 0 }, 50);
+            $(".overlay").removeClass("overlay-hover-effect");
+        }
+    );
+
+    $(".divFour").hover(function () {
+        $(".portFolioImages").animate({ opacity: 1 }, 50);
+        $(".overlay").addClass("overlay-hover-effect");
+    }
+        , function () {
+            $(".po4").animate({ opacity: 0 }, 50);
+            $(".pn4").removeClass("overlay-hover-effect");
+        }
+    );
+
+    $(".divFive").hover(function () {
+        $(".portFolioImages").animate({ opacity: 1 }, 50);
+        $(".overlay").addClass("overlay-hover-effect");
+    }
+        , function () {
+            $(".portFolioImages").animate({ opacity: 0 }, 50);
+            $(".overlay").removeClass("overlay-hover-effect");
+        }
+    );
+
+    $(".divSix").hover(function () {
+
+        $(".poxrtFolioImages").animate({ opacity: 1 }, 50);
+        $(".overlay").addClass("overlay-hover-effect");
+    }
+        , function () {
+        
+            $(".po6").animate({ opacity: 0 }, 50);
+            $(".pn6").removeClass("overlay-hover-effect");
+        }
+    );
+
+    $(".divSeven").hover(function () {
+        $(".portFolioImage").animate({ opacity: 1 }, 50);
+        $(".overlay").addClass("overlay-hover-effect");
+    }
+        , function () {
+            $(".portFolioImage").animate({ opacity: 0 }, 50);
+            $(".overlay").removeClass("overlay-hover-effect");
+        }
+    );
+
+    $(".divEight").hover(function () {
+        $(".portFolioImage").animate({ opacity: 1 }, 50);
+        $(".portFolioImage").addClass("overlay-hover-effect");
+    }
+        , function () {
+            $(".").animate({ opacity: 0 }, 50);
+            $(".pn8").removeClass("overlay-hover-effect");
+        }
+    );
     $(".contactUs").submit(function(event) {
+
         var  namePerson= $("input#name").val();
         var personEmail = $("input#email").val();
         var textArea = $("input#textarea").val();
@@ -39,20 +126,5 @@ $(document).ready(function(){
         else{
             alert(`${namePerson} We have recieved your message🎉`)
         };
-  $(".portfolioImages").hide();
-  $(".overlay").animate({ opacity: 1 });
-
-  $(".overlay").hover(
-    function () {
-      $(this).animate({ opacity: 0.4 }, 200);
-      $(".portfolioImages").fadeIn();
-    },
-    function () {
-      $(this).animate({ opacity: 1 }, 500);
-      $(".portfolioImages").fadeOut();
-    }
-  );      
-        event.preventDefault();
-
     });
 });
