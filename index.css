@@ -4,7 +4,7 @@ body{
     overflow-anchor: 300px;
 
 }
-body h1,h2,h3,h4,h5{
+body h1,h2,h3,h4,h5,p{
     font-family: 'Raleway', sans-serif;
 }
 
@@ -12,8 +12,8 @@ body h1,h2,h3,h4,h5{
     background-image: url("./assets/backgrounds/h_img.jpg") !important;
     background: cover !important;
     background-repeat: no-repeat!important;
-    height: 100%;
-    padding: 100%;
+    height: 850px;
+    padding: 300px;
 }
 .logo,.textone,.graph,.mouse-click{
 text-align: center;
@@ -97,9 +97,8 @@ cursor:pointer;
 }
 .contactUs{
     background-image: url("./assets/backgrounds/c_image.jpg") !important;
-    height: 650px;
-    height: 1000px;
-    width: fit-content !important;
+    height: 700px;
+    background-repeat: no-repeat;
 }
 .container-sm{
     padding-left: 300px;
