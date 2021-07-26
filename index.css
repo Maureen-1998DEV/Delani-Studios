@@ -107,6 +107,14 @@ cursor:pointer;
 .form-control:active{
     background-color: transparent;
 }
+.socialicons{
+    margin-left: 300px;
+    justify-content: space-around !important;
+}
+.textfive{
+    text-align: center!important;
+    margin-top: 50px;
+}
 
        @media screen and (max-width: 500px){ 
 

@@ -51,20 +51,6 @@ $(document).ready(function(){
       $(this).animate({ opacity: 1 }, 500);
       $(".portfolioImages").fadeOut();
     }
-  );
-
-  $(".image_description-2").hide();
-  $(".hover-2").animate({ opacity: 1 });
-
-  $(".hover-2").hover(
-    function () {
-      $(this).stop().animate({ opacity: 0.4 }, 200);
-      $(".image_description-2").fadeIn();
-    },
-    function () {
-      $(this).stop().animate({ opacity: 1 }, 500);
-      $(".image_description-2").fadeOut();
-    }
   );      
         event.preventDefault();
 
