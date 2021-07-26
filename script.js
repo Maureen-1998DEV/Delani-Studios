@@ -39,11 +39,33 @@ $(document).ready(function(){
         else{
             alert(`${namePerson} We have recieved your message🎉`)
         };
+  $(".portfolioImages").hide();
+  $(".overlay").animate({ opacity: 1 });
 
-        
+  $(".overlay").hover(
+    function () {
+      $(this).animate({ opacity: 0.4 }, 200);
+      $(".portfolioImages").fadeIn();
+    },
+    function () {
+      $(this).animate({ opacity: 1 }, 500);
+      $(".portfolioImages").fadeOut();
+    }
+  );
 
-            
-        
+  $(".image_description-2").hide();
+  $(".hover-2").animate({ opacity: 1 });
+
+  $(".hover-2").hover(
+    function () {
+      $(this).stop().animate({ opacity: 0.4 }, 200);
+      $(".image_description-2").fadeIn();
+    },
+    function () {
+      $(this).stop().animate({ opacity: 1 }, 500);
+      $(".image_description-2").fadeOut();
+    }
+  );      
         event.preventDefault();
 
     });
