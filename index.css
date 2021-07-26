@@ -95,6 +95,9 @@ cursor:pointer;
 .textthree{
     text-align: center;
 }
+.Textfour{
+    text-align: center !important;
+}
 .contactUs{
     background-image: url("./assets/backgrounds/c_image.jpg") !important;
     height: 700px;
